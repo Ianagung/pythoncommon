@@ -5,7 +5,7 @@ broker_url = "localhost"
 broker_port = 1883
 
 def on_connect(client, userdata, flags, rc):
-    print("Connected With Result Code " (rc))
+    print("Connected With Result Code " ,rc)
     if rc==0:
         print("connected OK Returned code=",rc)
     else:
